@@ -1,0 +1,6 @@
+[Unit]
+Description=Posts cpu temperature to the opensensemap
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/pi/sensebox_cputemp/post_temp_to_osem.sh
